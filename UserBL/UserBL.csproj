@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UserData1\UserData1.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UserData">
+      <HintPath>..\..\UsernameVerification\UserData\bin\Debug\net8.0\UserData.dll</HintPath>
+    </Reference>
+    <Reference Include="UserData1">
+      <HintPath>..\UserData1\bin\Debug\net8.0\UserData1.dll</HintPath>
+    </Reference>
+    <Reference Include="UsernameVerification">
+      <HintPath>..\..\UsernameVerification\UserData\bin\Debug\net8.0\UsernameVerification.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
